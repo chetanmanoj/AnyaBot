@@ -1,7 +1,9 @@
 console.log('hello! i am anya forger!');
 const Discord = require('discord.js');
+require("dotenv").config();
+
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
-client.login('OTY4MTY5NTMyNzMwNTMxODQx.Yma8JA.PBe48wM9qekUpYppujvnr6Z5ers');
+client.login(process.env.TOKEN);
 
 client.on('ready', readydisc);
 function readydisc() {
