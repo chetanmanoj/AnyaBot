@@ -31,7 +31,7 @@ function gotMessage(msg) {
     msg.reply("Anya's home!");
   }
   if (msg.content === "a.glen") {
-    msg.reply("GLen is a panda");
+    msg.reply("GLen is a pandaboi");
   }
   if (msg.content === "!gif") {
   }
