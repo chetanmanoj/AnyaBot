@@ -6,7 +6,7 @@
 
 <br>
 
-### 
+### わくわく
 
 AnyaBot can retrieve download/magnet links for anime that you search for.
 
