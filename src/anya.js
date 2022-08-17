@@ -13,10 +13,10 @@ function readydisc() {
 client.on("message", gotMessage);
 function gotMessage(msg) {
   console.log(msg.content);
+  const mainCommand =
+    " **Anya is a good helper!** \nCategories: \n``anime``: Anime commands \n``misc``: Miscellaneous commands \n\n To know the available commands for each category, use  ``a.help <category>``";
   if (msg.content === "a.help") {
-    msg.reply(
-      " **Anya is a good helper!** \nCategories: \n``anime``: Anime commands \n``misc``: Miscellaneous commands"
-    );
+    msg.reply(mainCommand);
   }
   if (msg.content === "a.help misc") {
     msg.reply(
@@ -31,7 +31,7 @@ function gotMessage(msg) {
     msg.reply("Anya's home!");
   }
   if (msg.content === "a.glen") {
-    msg.reply("GLen is a panda");
+    msg.reply("GLen is a pandaboi");
   }
   if (msg.content === "!gif") {
   }
