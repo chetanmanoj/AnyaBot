@@ -23,7 +23,6 @@ function gotMessage(msg) {
       "``a.name``: Find out my name🦧 \n``a.address``: Where do I live \n``a.glen``: Find out some facts about Glen"
     );
   }
-
   if (msg.content === "a.name") {
     msg.reply("I am Anya F-F-F-Fo-Forger...");
   }
@@ -33,6 +32,10 @@ function gotMessage(msg) {
   if (msg.content === "a.glen") {
     msg.reply("GLen is a pandaboi");
   }
-  if (msg.content === "!gif") {
+  if (msg.content === "anya") {
+    msg.reply("Waku Waku!");
   }
+  // if (msg.content === "a.warn") {
+  //   msg.reply("Be good! or Anya throw peanuts at you!");
+  // }
 }
