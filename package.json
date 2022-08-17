@@ -5,7 +5,8 @@
   "main": "anya.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/anya"
+    "start": "node src/anya",
+    "startall":"npm run start & npm run start --prefix web-client"
   },
   "author": "",
   "license": "ISC",
