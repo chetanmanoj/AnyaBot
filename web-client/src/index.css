@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+  margin: 0;
+    font-family: 'DynaPuff', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-image: url(./assets/images/anyaWallpaper4k.png);
+    background-size: 100%;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+    display: flex;
+    font-size: 150px;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    /* bring your own prefixes */
+    transform: translate(-20%, -50%);
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
