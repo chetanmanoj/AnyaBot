@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/anya",
-    "startall":"npm run start & npm run start --prefix web-client"
+    "startall": "npm run start & npm run start --prefix web-client"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "puppeteer": "^19.0.0"
   }
 }
